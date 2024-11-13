@@ -1,3 +1,24 @@
+# Site settings
+title: My Awesome Site
+description: >- # This is a multiline description
+  A blog about awesome things with the Minima theme.
+author:
+  name: Your Name
+  email: youremail@example.com
+baseurl: "" # the subpath of your site, e.g., /blog
+url: "https://yourdomain.com" # the base hostname and protocol for your site
+
+# Minima theme settings
 theme: minima
-header_pages:
-  - about.md
+minima:
+  skin: classic # You can choose from classic, dark, solarized, and solarized-dark
+  social_links:
+    twitter: your_twitter_handle
+    github: your_github_username
+    linkedin: your_linkedin_profile
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
